@@ -4,24 +4,161 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Test tittle, mer tittel her</title>
+    <title>Leaparken Legesenter</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="page">
-      <section class="card">
-        <h1>Overskrift kommer her</h1>
-        <p>
-          Her er det plass til tekst, her kommer det mer tekst og enda mer tekst
-          og til slutt legger vi til litt mer tekst her
-        </p>
+    <header class="site-header">
+      <nav class="navbar">
+        <div class="logo">
+          <span class="logo-mark">+</span>
+          <span>Leaparken Legesenter</span>
+        </div>
 
-        <button id="testButton">Test knapp</button>
+        <div class="nav-links">
+          <a href="#kontakt">Kontakt</a>
+          <a href="#apningstider">Åpningstider</a>
+          <a href="#informasjon">Informasjon</a>
+        </div>
+      </nav>
+    </header>
 
-        <p id="message"></p>
+    <main>
+      <section class="alert">
+        <strong>⚠️ Midlertidig stengt:</strong>
+        Vi holder stengt mandag 29. juni, tirsdag 30. juni og onsdag 1. juli. Vi
+        åpner igjen som normalt torsdag 2. juli.
+      </section>
+
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Vi har flyttet</p>
+
+          <h1>Vi har flyttet til Kanalveien 64</h1>
+
+          <p class="lead">
+            Sletten Allmennpraksis heter nå
+            <strong>Leaparken Legesenter</strong>.
+          </p>
+
+          <div class="address-panel">
+            <span class="address-label">Ny adresse</span>
+            <strong>Kanalveien 64, Bergen</strong>
+            <p>Rett ved bybanestopp og med parkeringsmulighet i garasje.</p>
+          </div>
+
+          <p class="trust-message">
+            Du møter de samme legene og sekretærene som før.
+          </p>
+        </div>
+
+        <div class="hero-image compact-logo">
+          <img src="images/Legeparken.jpeg" alt="Leaparken Legesenter" />
+        </div>
+      </section>
+
+      <section class="quick-info" id="kontakt">
+        <article class="info-card important">
+          <h2>Akutt syk?</h2>
+          <p>
+            Ring oss på <strong>55 27 71 70</strong>, legevaktsentralen på
+            <strong>116 117</strong>, eller nødsentralen på
+            <strong>113</strong>.
+          </p>
+          <p><strong>Ring – ikke skriv!</strong></p>
+        </article>
+
+        <article class="info-card">
+          <h2>Telefon</h2>
+          <p class="large-text">55 27 71 70</p>
+          <p>Telefonen besvares kl. 09.00–11.00 og 12.30–13.30.</p>
+        </article>
+
+        <article class="info-card">
+          <h2>Helsenorge</h2>
+          <p>
+            Vi anbefaler helsenorge.no for timebestilling, reseptfornyelse og
+            meldinger til sekretær. Det sparer deg for telefonkø.
+          </p>
+        </article>
+      </section>
+
+      <section class="content-grid" id="apningstider">
+        <article class="panel">
+          <h2>Åpningstider</h2>
+          <ul>
+            <li>Ekspedisjonen åpner kl. 08.30</li>
+            <li>Telefonen besvares kl. 09.00–11.00 og 12.30–13.30</li>
+            <li>Laboratoriet er åpent kl. 08.30–14.00</li>
+            <li>Innsendingsprøver på fredager må tas før kl. 11.00</li>
+          </ul>
+          <p class="note">Vennligst bekreft full åpnings- og stengetid.</p>
+        </article>
+
+        <article class="panel">
+          <h2>Våre ansatte</h2>
+
+          <h3>Leger</h3>
+          <p>
+            Elin Hestvik, Dag J. Hanson Brochmann, Thomas Grindevoll, Thomas
+            Damlien Eide og Jelena Vlku-Danjec.
+          </p>
+
+          <h3>Sekretærer</h3>
+          <p>
+            Hilde Gro Endestad, Beathe Bussesund Bjørkehaug og Theres-Mari
+            Limevåg.
+          </p>
+        </article>
+      </section>
+
+      <section class="info-section" id="informasjon">
+        <h2>Praktisk informasjon</h2>
+
+        <div class="text-cards">
+          <article>
+            <h3>E-konsultasjon</h3>
+            <p>
+              E-konsultasjon er tilgjengelig og besvares innen 5 virkedager av
+              lege. Merk at e-konsultasjon ikke kan benyttes ved behov for
+              sykmelding – dette krever fysisk oppmøte hos legen.
+            </p>
+          </article>
+
+          <article>
+            <h3>Avbestilling av time</h3>
+            <p>
+              Avbestilling må skje senest 24 timer før avtalt time, ellers vil
+              timen bli belastet. Avbestilling gjøres via telefon eller melding
+              på helsenorge.no.
+            </p>
+          </article>
+
+          <article>
+            <h3>Sykmelding</h3>
+            <p>
+              Sykmelding krever fysisk oppmøte til undersøkelse hos legen. Det
+              er ikke mulig å få sykmelding via e-konsultasjon. Trenger du
+              sykmelding, bestill time så snart som mulig – tilbakedatering er
+              som hovedregel ikke tillatt.
+            </p>
+          </article>
+
+          <article>
+            <h3>Ny pasient</h3>
+            <p>
+              Ønsker du å bytte til oss som fastlege? Bytte av fastlege gjøres
+              enkelt via helsenorge.no. Etter at byttet er registrert, ber vi
+              deg ta kontakt med ditt tidligere legekontor for å få overført
+              journalen din til oss.
+            </p>
+          </article>
+        </div>
       </section>
     </main>
 
-    <script src="script.js"></script>
+    <footer class="footer">
+      <p>Leaparken Legesenter · Kanalveien 64, Bergen</p>
+    </footer>
   </body>
 </html>
